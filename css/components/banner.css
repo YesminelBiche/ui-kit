@@ -1,0 +1,66 @@
+.banner {
+    background-image:
+      /* Transparent gradient above */
+      linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+      /* Then image below */
+      url('C:/Users/user/Desktop/Yesmine-ui-kit/images/banner-01.webp');
+    /* 2. Make the background image cover the banner div */
+    background-size: cover;
+    /* 3. Center the image */
+    background-position: center;
+    /* 4. Set the height and overflow properties */
+    height: 500px;
+    overflow: auto;
+  }
+  
+  /* Set the background color of the element below the banner to the same light shade of gray */
+  /* .section {
+    background-color: rgba(211, 211, 211, 0.7);
+  } */
+  
+  
+  .banner h1 {
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #555;
+    text-align: center;
+    margin: 0;
+    margin: 50px ;
+  }
+  
+  .banner h2 {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    opacity: 0.9;
+    text-shadow: 1px 1px 1px #555;
+    text-align: center;
+    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+  }
+  
+  .banner a.btn-blue, .banner button.primary-button {
+    display: block;
+    margin: 30px auto 0;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .banner a.btn-blue:hover, .banner button.primary-button:hover {
+    background-color: #ffcc5c;
+    
+  }

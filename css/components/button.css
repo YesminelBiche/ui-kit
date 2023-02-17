@@ -1,0 +1,19 @@
+.banner .primary-button {
+    background-color: #2b2d42;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner .primary-button:hover {
+    background-color: #f5f5f5;
+    color: #2b2d42;
+    cursor: pointer;
+  }
+  
