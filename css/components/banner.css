@@ -3,7 +3,7 @@
       /* Transparent gradient above */
       linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
       /* Then image below */
-      url('images/banner-01.webp');
+      url('../../images/banner-01.webp');
     /* 2. Make the background image cover the banner div */
     background-size: cover;
     /* 3. Center the image */
